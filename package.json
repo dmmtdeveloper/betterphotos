@@ -1,0 +1,16 @@
+{
+  "name": "betterphotos",
+  "version": "1.0.0",
+  "description": "En esta pequeña practica pude implementar y aprender:",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map main.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.74.1"
+  }
+}
