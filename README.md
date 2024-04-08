@@ -21,4 +21,4 @@ En esta pequeña practica pude implementar y aprender:
 <a href="https://www.linkedin.com/in/dmmtapia/" target="blank">
  <img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Wb7G67EcR44qT3KQLlLzI1Fna_L2lPXfTI1sx8_z2w&s" alt="LinkedIndmmtapia" height="28px" width="28px" />
 </a>
-# betterphotos
+
