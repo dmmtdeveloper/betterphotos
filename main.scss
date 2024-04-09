@@ -174,7 +174,6 @@ a {
   }
 }
 
-//--------------------------------------> sidebar
 .sidebar {
   background-color: #11271f;
   grid-column: 1 / 2;
@@ -325,7 +324,6 @@ a {
   }
 }
 
-//--------------------------------------> gallery
 .gallery {
   background-color: #eef3f4;
   grid-column: 2 / 3;
@@ -333,54 +331,52 @@ a {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 272px 60px 90px 94px 30px 208px;
+  grid-template-rows: 272px 60px 90px 64px 30px 208px;
 
-  
   &__img-wrapper {
     position: relative;
-    
+
     &:nth-child(1) {
       grid-column: 1 / 2;
       grid-row: 1 / 3;
       animation: fade-in 1s 0.1s backwards;
     }
-    
+
     &:nth-child(2) {
       grid-column: 2 / 3;
       grid-row: 1 / 4;
       animation: fade-in 1s 0.2s backwards;
     }
-    
+
     &:nth-child(3) {
       grid-column: 3 / 4;
       grid-row: 1 / 2;
       animation: fade-in 1s 0.3s backwards;
     }
-    
+
     &:nth-child(4) {
       grid-column: 1 / 2;
       grid-row: 3 / 6;
       animation: fade-in 1s 0.4s backwards;
-      
     }
     &:nth-child(5) {
       grid-column: 2 / 3;
       grid-row: 4 / 7;
       animation: fade-in 1s 0.5s backwards;
     }
-    
+
     &:nth-child(6) {
       grid-column: 3 / 4;
       grid-row: 2 / 5;
       animation: fade-in 1s 0.6s backwards;
     }
-    
+
     &:nth-child(7) {
       grid-column: 1 / 2;
       grid-row: 6 / 7;
       animation: fade-in 1s 0.7s backwards;
     }
-    
+
     &:nth-child(8) {
       grid-column: 3 / 4;
       grid-row: 5 / 7;
@@ -434,9 +430,50 @@ a {
   }
 }
 
-//--------------------------------------> steps
 .steps {
   background-color: #e7edee;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  text-align: center;
+  padding: 0 20px;
+
+  &__icon {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 17px;
+    line-height: 50px;
+
+    &--1 {
+      color: #67b141;
+    }
+
+    &--2 {
+      color: #3eb049;
+    }
+
+    &--3 {
+      color: #1ea97b;
+    }
+  }
+
+  &__text {
+    color: $color-grey-dark;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+
+.second-heading {
+  color: $color-grey-dark;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
 }
