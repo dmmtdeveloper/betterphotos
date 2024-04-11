@@ -4,13 +4,22 @@
   "description": "En esta pequeña practica pude implementar y aprender:",
   "main": "index.js",
   "scripts": {
-    "compile": "sass --watch --no-source-map main.scss style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "sass --watch --no-source-map src/main.scss:src/style.css",
+    "build:compile": "sass --no-source-map src/main.scss:build/compiled.css",
+    "build:prefixes": "postcss build/compiled.css --use autoprefixer --output build/prefixed.css",
+    "build:optimize": "csso build/prefixed.css --output build/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csso-cli": "^4.0.2",
+    "post-cli": "^1.0.5",
+    "postcss": "^8.4.38",
     "sass": "^1.74.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0"
   }
 }

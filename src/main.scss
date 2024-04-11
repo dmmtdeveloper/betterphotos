@@ -70,10 +70,13 @@ a {
   font-weight: 700;
 }
 //--------------------------------------> base styles
-
+html{
+  // font-size: 100%; // 100% is 16px = 16px, 1 rem=16px // browser default value
+  font-size: 62.5%; // 62.5% of 16px = 10px, 1 rem=10px
+}
 .page {
   font-family: "poppins", sans-serif;
-  font-size: 14;
+  font-size: 1.4rem;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -87,14 +90,14 @@ a {
 }
 
 .app {
-  width: 1240px;
-  height: 1030px;
+  width: 124rem;
+  height: 103rem;
   background-color: #fff;
-  box-shadow: 0 25px 150px rgba(0, 0, 0, 0.65);
-  margin: 80px 0;
+  box-shadow: 0 2.5rem 15rem rgba(0, 0, 0, 0.65);
+  margin: 8rem 0;
   display: grid;
-  grid-template-columns: 355px 1fr;
-  grid-template-rows: 65px 724px 1fr;
+  grid-template-columns: 35.5rem 1fr;
+  grid-template-rows: 6.5rem 72.4rem 1fr;
 
   @media (max-width: 1300px) {
     width: 100%;
@@ -117,8 +120,8 @@ a {
 }
 
 .logo {
-  margin-left: 26px;
-  margin-right: 48px;
+  margin-left: 2.6rem;
+  margin-right: 4.8rem;
 }
 
 .search {
@@ -130,17 +133,17 @@ a {
 
   &__input {
     background-color: $color-grey-light;
-    height: 34px;
-    width: 405px;
+    height: 3.4rem;
+    width: 40.5rem;
     border-radius: 500px;
-    font-size: 13px;
+    font-size: 1.3rem;
     color: $color-grey-dark;
-    padding-left: 24px;
+    padding-left: 2.4rem;
     outline: none;
     transition: $ts;
 
     &:focus {
-      width: 425px;
+      width: 42.5rem;
     }
 
     &::placeholder {
@@ -171,10 +174,10 @@ a {
   }
 
   &__link {
-    padding: 0 20px;
+    padding: 0 2rem;
     transition: $ts;
     display: block;
-    height: 65px;
+    height: 6.5rem;
 
     &:hover,
     &:focus {
@@ -185,8 +188,8 @@ a {
 
   &__icon {
     color: $color-grey-medium;
-    font-size: 22px;
-    line-height: 65px;
+    font-size: 2.2rem;
+    line-height: 6.5rem;
   }
 }
 
@@ -196,46 +199,46 @@ a {
   grid-row: 2 / 4;
 
   .intro {
-    padding: 48px 35px 45px;
+    padding: 4.8rem 3.5rem 4.5rem;
     border-bottom: 1px solid rgba(#fff, 0.1);
 
     .first-heading {
       font-weight: 600;
       text-transform: uppercase;
-      font-size: 34px;
+      font-size: 3.4rem;
       line-height: 1;
 
       @media (max-width: 330px){
-        font-size: 31px;
+        font-size: 3.1rem;
       }
     }
 
     &__text {
       color: $color-grey-light;
-      font-size: 16px;
-      margin-top: 12px;
+      font-size: 1.6rem;
+      margin-top: 1.2rem;
       line-height: 1.8;
     }
 
     .social {
       display: flex;
       justify-content: center;
-      margin: 25px 0 30px;
+      margin: 2.5rem 0 3rem;
 
       &__img {
-        height: 35px;
-        width: 35px;
+        height: 3.5rem;
+        width: 3.5rem;
         object-fit: cover;
         border-radius: 50%;
         border: 2px solid #fff;
 
         &:not(:first-child) {
-          margin-left: -8px;
+          margin-left: -0.8rem;
         }
       }
 
       &__container {
-        margin-left: 10px;
+        margin-left: 1rem;
       }
 
       &__number {
@@ -243,16 +246,16 @@ a {
       }
 
       &__text {
-        font-size: 12px;
+        font-size: 1.2rem;
         color: $color-grey-medium;
-        margin-top: -5px;
+        margin-top: -0.5rem;
       }
     }
 
     .auth {
       .btn {
         background-color: #16b47f;
-        padding: 12px 0;
+        padding: 1.2rem 0;
         display: block;
         text-align: center;
         text-transform: uppercase;
@@ -265,15 +268,15 @@ a {
         }
 
         &__icon {
-          margin-left: 2px;
+          margin-left: 0.2rem;
         }
       }
 
       &__text {
         color: $color-grey-medium;
-        font-size: 12px;
+        font-size: 1.2rem;
         text-align: center;
-        margin-top: 8px;
+        margin-top: 0.8rem;
       }
 
       &__link {
@@ -284,14 +287,14 @@ a {
   }
 
   .upload {
-    padding: 45px 35px;
+    padding: 4.5rem 3.5rem;
     border-bottom: 1px solid rgba(#fff, 0.1);
     color: $color-grey-medium;
 
     &__container {
       background-color: rgba(#fff, 0.03);
-      height: 330px;
-      border-radius: 3px;
+      height: 33rem;
+      border-radius: 0.3rem;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -305,31 +308,31 @@ a {
       }
 
       &__icon {
-        font-size: 33px;
+        font-size: 3.3rem;
       }
 
       &__text {
         color: #fff;
-        margin-top: 8px;
+        margin-top: 0.8rem;
       }
 
       &__alternative {
-        font-size: 12px;
-        margin-top: 2px;
+        font-size: 1.2rem;
+        margin-top: 0.2rem;
       }
     }
   }
 
   .footer {
-    padding-top: 50px;
-    padding-left: 35px;
-    font-size: 11px;
+    padding-top: 5rem;
+    padding-left: 3.5rem;
+    font-size: 1.1rem;
     color: rgba($color-grey-medium, 0.6);
 
     &__list {
       display: flex;
-      gap: 8px;
-      margin-top: 10px;
+      gap: 0.8rem;
+      margin-top: 1rem;
     }
 
     // &__item {
@@ -351,9 +354,9 @@ a {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 272px 60px 90px 64px 30px 208px;
+  grid-template-rows: 27.2rem 6rem 9rem 6.4rem 3rem 20.8rem;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1130px) {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -406,7 +409,7 @@ a {
       grid-row: 4 / 7;
       animation: fade-in 1s 0.5s backwards;
 
-      @media (max-width: 870px) {
+      @media (max-width:870px) {
         display: none;
       }
     }
@@ -441,31 +444,32 @@ a {
   &__comment {
     background-color: #fff;
     color: $color-grey-dark;
-    padding: 4px 10px;
-    border-radius: 500px;
+    padding: 0.4rem 1rem;
+    border-radius: 50rem;
     position: absolute;
 
     &--1 {
-      top: 15px;
-      right: 15px;
+      top: 1.5rem;
+      right: 1.5rem;
       @media (max-width: 870px) {
         display: none;
       }
     }
 
     &--2 {
-      bottom: 15px;
-      right: 15px;
+      bottom: 1.5rem;
+      right: 1.5rem;
     }
 
     &--3 {
-      top: 15px;
-      left: 15px;
+      top: 1.5rem;
+      left: 1.5rem;
     }
 
     &--4 {
-      bottom: 15px;
-      left: 15px;
+      bottom: 1.5rem;
+      left: 1.5rem;
+
       @media (max-width: 870px) {
         display: none;
       }
@@ -480,13 +484,13 @@ a {
 
   &__icon {
     color: $color-accent;
-    font-size: 11px;
+    font-size: 1.1rem;
   }
 
   &__number {
-    font-size: 11px;
+    font-size: 1.1rem;
     font-weight: 600;
-    margin-right: 2px;
+    margin-right: 0.2rem;
   }
 }
 
@@ -504,7 +508,7 @@ a {
 
 .step {
   text-align: center;
-  padding: 0 20px;
+  padding: 0 0.2rem;
 
   &:nth-child(3) {
     @media (max-width: 955px) {
@@ -513,13 +517,13 @@ a {
   }
 
   &__icon {
-    font-size: 20px;
-    height: 50px;
-    width: 50px;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: #fff;
-    margin-bottom: 17px;
-    line-height: 50px;
+    margin-bottom: 1.7rem;
+    line-height: 5rem;
 
     &--1 {
       color: #67b141;
@@ -536,14 +540,14 @@ a {
 
   &__text {
     color: $color-grey-dark;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 1.8;
   }
 }
 
 .second-heading {
   color: $color-grey-dark;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 6px;
+  margin-bottom: 0.6rem;
 }
