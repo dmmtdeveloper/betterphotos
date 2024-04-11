@@ -6,7 +6,7 @@ En esta pequeña practica pude implementar y aprender:
 - Metodologíaa BEM (Block, Element, Modifier)
 - Evitar errores de principiante para que las personas que tienen que interactuar con mi código lo tengan fácil.
 - Implementar diseño web responsivo (RWD) para dispositivos móviles, tabletas, computadoras portátiles y de escritorio con consultas de medios (@media).
-- Sass/SCSS el preprocesador de css mas popular
+- Sass/SCSS el preprocesador de css más popular
 - Grid y Flexbox para implementar el diseño
 - Utility classes
 - Simple build process (npm) minficar el archivo css para producción
@@ -14,10 +14,23 @@ En esta pequeña practica pude implementar y aprender:
 ##
 
 ### Tecnologías
+<a href="https://developer.mozilla.org/es/docs/Glossary/HTML5">
+    <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+</a>
 
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-<img align="left" alt="SASS" width="30px" style="padding-right:10px;" src="src/svg/sass.svg" />
+<a href="https://developer.mozilla.org/es/docs/Web/CSS">
+    <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />    
+</a>
+
+<a href="https://sass-lang.com/">
+    <img align="left" alt="SASS" width="30px" style="padding-right:10px;" src="src/svg/sass.svg" />
+</a>
+
+<a href="https://www.npmjs.com/">
+    <img align="left" alt="NPM" width="30px" style="padding-right:10px;" src="src/svg/npm.svg" /> 
+</a>
+
+
 <br />
 
 ##
