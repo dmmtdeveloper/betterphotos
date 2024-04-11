@@ -27,7 +27,7 @@ En esta pequeña practica pude implementar y aprender:
 </a>
 
 <a href="https://www.npmjs.com/">
-    <img align="left" alt="NPM" width="30px" style="padding-right:10px;" src="src/svg/npm.svg" /> 
+    <img align="left" alt="npm" width="30px" style="padding-right:10px;" src="src/svg/npm.svg" /> 
 </a>
 
 
