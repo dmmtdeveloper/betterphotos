@@ -4,7 +4,7 @@ En esta pequeña práctica pude implementar y aprender:
 
 - Cómo codificar en CSS en 2024 creando proyectos realistas desde cero.
 - Metodología BEM (Block, Element, Modifier)
-- Evitar errores código legible y fácil de comprender.
+- Evitar errores código, y que sea legible y fácil de comprender.
 - Implementar diseño web responsivo (RWD) para dispositivos móviles, tablet, notebooks y desktop con @media.
 - Sass/SCSS el preprocesador de CSS más popular
 - Grid y Flexbox para implementar el diseño
